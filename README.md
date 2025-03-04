@@ -59,8 +59,7 @@ Le fichier **`sql.sql`** contient les **requêtes SQL** exécutées sous **Postg
 
 ### 3️⃣ Visualisation des Données  
 Les **données traitées** sont exploitées pour fournir des **visualisations interactives sur Power BI**.  
-🔗 **Accédez au tableau de bord Power BI** :  
-[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-orange?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiYjA2NWNiNTktM2Q1YS00YWE4LWI5OGUtMTBlY2VkNTdmYjA3IiwidCI6IjQ0OTFmMGVlLWY1MDMtNDcyNi1hNWViLTFmMGM0ZGFjODJhOSJ9&pageName=0ddccbb621013b0fcf8d)  
+🔗 **Accédez au tableau de bord Power BI** :  [![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-orange?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiYjA2NWNiNTktM2Q1YS00YWE4LWI5OGUtMTBlY2VkNTdmYjA3IiwidCI6IjQ0OTFmMGVlLWY1MDMtNDcyNi1hNWViLTFmMGM0ZGFjODJhOSJ9&pageName=0ddccbb621013b0fcf8d)  
 
 ---
 
@@ -76,8 +75,8 @@ Pour exécuter ce projet, vous aurez besoin des outils suivants :
 ## 🛠 Installation  
 1️⃣ **Clonez le dépôt** :  
 ```sh
-git clone https://github.com/ton-repo.git
-cd ton-repo
+git clone https://github.com/Dim2960/nyc-taxi-data-analysis
+cd nyc-taxi-data-analysis
 ```
 2️⃣ **Installez les dépendances** :  
 ```sh
@@ -85,8 +84,7 @@ pip install -r requirements.txt
 ```
 3️⃣ **Téléchargez les données depuis Kaggle** et placez-les dans le dossier `data/`.  
 
-4️⃣ **Mettre en place le fichier .env
-Créez un fichier .env à la racine avec le contenu suivant :
+4️⃣ **Créez un fichier .env** à la racine avec le contenu suivant :
 ```ini
 DB_NAME=nyc_geo
 DB_USER=postgres
@@ -94,7 +92,7 @@ DB_PASSWORD=[Password]
 DB_HOST=localhost
 DB_PORT=5432
 ```
-Remplacez [Password] par votre valeur réelle.
+🗨️ Remplacez [Password] par votre valeur réelle.
 
 5️⃣ **Lancez Jupyter Notebook** et exécutez les notebooks dans l’ordre recommandé.  
 
